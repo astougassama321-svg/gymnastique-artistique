@@ -1,0 +1,129 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
+    background-color:#f8ece4;
+    background-image: url(logo2.jpg);
+}
+header{
+    text-align: center;
+    color:black;
+}
+nav{
+   
+    display:contents;
+    margin-right: 40px;
+    border-radius: 5px;
+    padding: right;
+    text-align: right;
+    cursor: pointer
+    
+}
+nav a{
+    text-decoration: none;
+    color:black;
+    background: white;
+    border-radius: 10px;
+    margin-right: 5px;
+    border: 1px solid;
+    font-size: 8px;
+    padding: 8px;
+}
+nav a:hover{
+    background: #f2f2f2;
+}
+nav ul{
+    list-style: none;
+    margin: 0%;
+    padding: 0%;
+    float: right;
+}
+h1{
+    text-align: left;
+    text-decoration: none;
+    margin-left: auto;
+}
+h2{
+    text-align: left;
+    text-decoration:overline;
+}
+.section img{
+    display: block;
+    position: center;
+    width: 100%; 
+    height: 100%;
+}
+nav ul li{
+    display: inline-block;
+    margin-right: 15px;
+
+}
+nav ul li a{
+    color:black;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color:burlywood;
+}
+section{
+    padding: 20px;
+    margin: auto;
+    width: 80%;
+    display: block;
+    margin: 0 auto; 
+}
+image{
+    position: relative ;
+    width: 50px;
+    margin: 20px;
+    
+}
+.block{
+    display:flex;
+    width: 300px;
+    align-items: center;
+    margin-top: 20px;
+    background-color: white;
+}
+.colonne {
+  display: flex;
+  flex-direction: column; 
+  align-items: center;   
+  width: 80%; 
+  margin: 20px auto;      
+          
+}
+
+.colonne img {
+  width: 100%;  
+  height: auto; 
+  border-radius: 50px;
+}
+
+.colonne p {
+  text-align: justify;
+  background-color: beige;
+  padding: 20px;
+  border-radius: 10px;
+}
+p{
+  padding: 10px;
+  border-radius: 10px;
+  background-color: beige;
+}
+video{
+    width: 50%;
+    height: auto;
+    border: 1px solid;
+}
+footer{
+    background-color: beige;
+    padding: 3px;  
+    border-radius: 3px;
+    text-align: right;
+    color: black;
+    font-weight: bold;
+}
+    
+ 
